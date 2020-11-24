@@ -2,4 +2,6 @@
 
 |"Objects"       |"Messages"|
 |----------------|----------|
-|"User"          | "text"   |
+|"Person"        |          |
+|"Bike"          |"Working?"|
+|"Docking station"|"Release_bike"|
