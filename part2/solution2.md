@@ -1,7 +1,9 @@
 # Solution 2
 ### Write down all the nouns in the User Stories
 
-### Draw a table like the one above
+### Write down all the verbs in the User Stories
+
+###  Organise the nouns and verbs into Objects and Messages within the table
 
 |"Objects"       |"Messages"|
 |----------------|----------|
