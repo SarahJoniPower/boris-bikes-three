@@ -1,4 +1,7 @@
-#Write down all the nouns in the User Stories
+# Solution 2
+### Write down all the nouns in the User Stories
+
+### Draw a table like the one above
 
 |"Objects"       |"Messages"|
 |----------------|----------|
@@ -6,5 +9,5 @@
 |"Bike"          |"Working?"|
 |"Docking station"|"Release_bike"|
 
-# Diagram that shows how your Objects will use Messages to communicate with one another
+### Diagram that shows how your Objects will use Messages to communicate with one another
 <img src="https://raw.githubusercontent.com/xavierloos/boris-bikes/master/part2/flowchart.png"/>
