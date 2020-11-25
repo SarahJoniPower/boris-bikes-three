@@ -9,6 +9,10 @@ describe DockingStation do
     it 'It should show true' do
       expect(bike.working?).to eq true
     end
+
+    it 'raises "no bikes available"' do
+      expect { @docked_bikes.empty? }.to raise_error("no bikes!")
+    end
   end
 
   describe '#dock' do
