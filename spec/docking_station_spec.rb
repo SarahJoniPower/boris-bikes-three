@@ -6,7 +6,7 @@ describe DockingStation do
 
  it "expect docking_station station array to change when dock is called" do
    bike = Bike.new
-   expect{docking_station.dock(bike)}.to change{docking_station.station}
+   expect{docking_station.dock(bike)}.to change{docking_station.bike}
  end
 
     it { is_expected.to respond_to(:release_bike) }
@@ -19,7 +19,6 @@ describe DockingStation do
     end
 
     it 'raises an error message when the station is full' do
-      p "hey!"
       #20.times { docking_station.dock Bike.new }
       expect {21.times {docking_station.dock(bike)}}.to raise_error('station is full')
     end
